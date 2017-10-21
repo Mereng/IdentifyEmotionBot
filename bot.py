@@ -54,7 +54,7 @@ class NN:
 
     def _load_model(self):
         model = self._build_model()
-        model.load('data/model/model3')
+        model.load('data/model/model')
         return model
 
     def take_answer(self, message):
